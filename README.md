@@ -112,4 +112,6 @@ This repository contains my approach to the infamous Kaggle-Titanic problem. Thi
  
  In this competition, I was able to achieve a *score of 0.78468*  and the submission file is attached in the repository
  
- This is my present approach to a data science problem. Looking forward to learn and update my approach and mental model of a data science problem. Happy learning all!! Thanks..
+ This is my present approach to a data science problem. Looking forward to learn and update my approach and mental model of a data science problem. <br />
+ Suggestions and feedback are welcome<br />
+ Happy learning all!! Thanks..<br />
