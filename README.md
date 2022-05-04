@@ -18,7 +18,7 @@ This repository contains my approach to the infamous Kaggle-Titanic problem. Thi
   4) Prediction on test_data
 
 ## 1.Data Processing
-## 1) Getting to know the data
+## --> Getting to know the data
   The train data contains 891 records and 12 columns ['PassengerId','Name','Pclass','Sex,'Age','SibSp','Parch','Ticket','Fare','Cabin','Embarked','Survived']
   So, excluding 'PassengerId' and 'Survived' we have a total of 10 features
  
@@ -40,7 +40,7 @@ This repository contains my approach to the infamous Kaggle-Titanic problem. Thi
   
   Since we have 80% of the data is missing in Cabin, decided to drop the feature. We have to come up with some mechanism to fill the missing values in Age and Embarked
 
-## Exploratory Data Analysis
+## --> Exploratory Data Analysis
   ### Sex vs Survived
   ![image](https://user-images.githubusercontent.com/41124746/166671564-d465788d-b49b-4fc4-9384-1d71951d7cf0.png)
 
@@ -74,7 +74,7 @@ This repository contains my approach to the infamous Kaggle-Titanic problem. Thi
   
   From the correlation table, we can say Fare and Pclass are strong correlated, SibSp and Parch are correlated. So, these features can be combined to make a new feature or either of the features can be dropped
   
-  ### Feature Engineering
+  ### --> Feature Engineering
   
   --> A new feature family is created by combining both SibSp and Parch <br />
   --> Name titles have been taken in Names column and used as a separate feature<br />
